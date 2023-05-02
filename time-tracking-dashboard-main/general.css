@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  background-color: hsl(226, 43%, 10%);
+  overflow-x: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
+
+
+.container {
+  /* 1140px */
+  max-width: 110rem;
+  padding: 0 3.2rem;
+  margin: 18rem auto;
+  font-family: 'Rubik', sans-serif; 
+  
+
+
+}
+.grid {
+    display: grid;
+
+}
+
+.grid--3-cols {
+     grid-template-columns: repeat(3, 1fr);
+     
+}
+

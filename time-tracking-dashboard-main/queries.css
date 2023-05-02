@@ -1,0 +1,95 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+
+    .container, 
+    .grid, 
+    .grid--3-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .section-ein {
+        margin-left: 0rem;
+        display: flex;
+    
+    }
+
+    /**************************/
+    /* JEREMY 544px (Phones) */
+    /**************************/
+
+    .jeremy {
+        margin-top: -6rem;
+        width: 40rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 12rem;
+        
+    }
+
+    .jeremy img {
+        width: 90%;
+        height: 60%;
+    }
+
+    .jeremy p {
+       font-size: 1.4rem;
+       width: 100%;
+       margin-bottom: -1rem;
+        margin-right: 26rem;
+    }
+
+    .jeremy h2 {
+       padding-left: 2rem;
+       width: 100%;
+       font-size: 3.2rem;
+    }
+
+
+    /**************************/
+    /* DAILY 544px (Phones) */
+    /**************************/
+
+    .daily {
+        display: flex;
+        flex-direction: row;
+        height: 10rem;
+        gap: 8rem;
+        width: 40rem;
+        padding-top: 3rem;
+        margin-bottom: 2.2rem;
+    }
+
+    .daily-link:link,
+    .daily-link:visited {
+        font-size: 2rem;
+    }
+
+    /**************************/
+    /* WORK 544px (Phones) */
+    /**************************/
+
+    .work-zwei {
+        height: 12rem;
+       
+    }
+
+    .need a:link, 
+    .need a:visited {
+        margin-left: 20rem;
+        font-size: 3rem;
+    }
+
+    .need h3 {
+        margin-top: .8rem;
+    }
+
+    .work-zwei p {
+        margin-left: 24rem;
+        width: 100%;
+        margin-top: -5rem;
+        font-size: 1.6rem;
+    }
+}
